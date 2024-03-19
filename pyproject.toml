@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "true-color"
+version = "0.0.1"
+authors = [
+  { name="Joris Coddé", email="joris.codde@vito.be" },
+]
+description = "Convert Sentinel 2 acquisitions to images"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "hatchling",
+    "numpy",
+    "xarray",
+]
+
+[project.urls]
+Homepage = "https://github.com/JorisCod/true-color"
