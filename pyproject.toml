@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 allow-direct-references = true
 
 [project]
-name = "true-color"
+name = "true_color"
 version = "0.0.1"
 authors = [
   { name="Joris Coddé", email="joris.codde@vito.be" },
